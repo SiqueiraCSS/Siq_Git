@@ -1,9 +1,13 @@
-# Changelog
-All notable changes to this project will be documented in this file.
+# Padrões de nomenclatura para mensagens em commits
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+## Chore - Pequena tarefa
+- git commit -m "chore: removendo arquivo.txt
 
-## [0.0.1] - 2022-09-27
-### Added
-- Added changelog.md
+## Fix - Correções
+- git commit -m "fix: correção no cálculo de médias"
+
+## Feat - Inclusão de funcionalidade
+- git commit -m "feat: inclusão de função para calcular mediana"
+
+## Docs - Atualização de documentação
+- git commit -m "docs: atualizando o changelog.md"
